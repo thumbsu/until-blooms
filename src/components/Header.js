@@ -3,18 +3,16 @@ import React from 'react'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span className="icon fa-diamond"></span>
+    <div className="logo" style={{ 'fontSize': '40px' }}>
+      🌸
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Until blooms</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          벚꽃이 피면 만나요 🌸{' '}
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          벚꽃이 필 때까지 함께 하는 클럽하우스의 온돌방{' '}
         </p>
       </div>
     </div>
