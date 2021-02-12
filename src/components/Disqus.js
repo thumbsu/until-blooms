@@ -4,6 +4,7 @@ const Disqus = () => (
   <Disqus
     config={{
       url: 'https://gifted-kare-b7633d.netlify.app',
+      identifier: 'https://gifted-kare-b7633d.netlify.app',
     }}
   />
 );
