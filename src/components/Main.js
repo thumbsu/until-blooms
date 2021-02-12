@@ -1,9 +1,9 @@
+import { Disqus } from 'gatsby-plugin-disqus'
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
-import Comment from './Comment'
 
 class Main extends React.Component {
   render() {
@@ -111,7 +111,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Comment</h2>
-          <Comment />
+          <Disqus />
           {close}
         </article>
       </div>

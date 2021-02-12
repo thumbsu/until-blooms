@@ -5,6 +5,12 @@ module.exports = {
     description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `until-blooms`
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
