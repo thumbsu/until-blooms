@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import Comment from './Comment'
 
 class Main extends React.Component {
   render() {
@@ -104,12 +105,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+          id="comment"
+          className={`${this.props.article === 'comment' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Comment</h2>
+          <Comment />
           {close}
         </article>
       </div>
